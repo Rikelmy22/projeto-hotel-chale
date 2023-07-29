@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1em;
+    background: url(../imagens/bg.png);
+}
+
+#container {
+    background-color: #ede9cc;
+    margin: 15px auto;
+    min-width: 740px !important;
+    max-width: 1180px;
+}
+/*Início cabeçalho*/
+#cabecalho {
+    background-color: #dbcd87;
+    height: 15em;
+    min-height: 250px;
+    background: url(../imagens/topo-imagem-principal.png) no-repeat;
+    position: relative;
+}
+
+#cabecalho > #logo {
+   width: 151px;
+   height: 75px;
+   background: url(../imagens/logo.png) no-repeat;
+   position: absolute;
+   top: 12px;
+   left: 0px;
+}
+
+#cabecalho > #logo > h1 {
+    text-indent: -3000px;
+}
+
+#cabecalho > #menu {
+    background: transparent url(../imagens/topo-imagem-lateral.png);
+    height: 250px;
+    width: 450px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding-left: 70px;
+}
+
+#cabecalho > #menu > #conteudos-locais {
+    border-top: 1px solid #b5ab56;
+    border-bottom: 1px solid #b5ab56;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 0px 10px 0px;
+    font-size: 1em;
+    color: #8b8448;
+    margin: 10px;
+}
+
+#cabecalho > #menu > #conteudos-locais .igual {
+    text-decoration: none;
+    color: #8b8448;
+    border-left: 1px solid #8b8448;
+    padding-left: 5px;
+    padding-right: 5px;
+    float: left;
+    cursor: pointer;
+}
+
+#cabecalho > #menu > #conteudos-locais > .igual:hover {
+    text-decoration: underline;
+}
+
+#cabecalho > #menu > #conteudos-locais > #none {
+    border: none;
+}
+
+#cabecalho > #menu > #conteudos-locais > #diferente {
+    float: right;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #8b8448;
+    color: #c8bf6b;
+    padding: 5px;
+    border-radius: 3px;
+    transform: translateY(-5px);
+}
+
+#cabecalho > #menu > #navegacao {
+    float: left;
+}
+
+#cabecalho > #menu > #navegacao > ul {
+    list-style-type: none;
+    margin:  10px 0px;
+}
+
+#cabecalho > #menu > #navegacao > ul > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 1.7em;
+    height: 1.7em;
+    display: inline-block;
+    color: #686337;
+    font-weight: bolder;
+    padding: 0.2em;
+    border-radius: 2px;
+}
+
+#cabecalho > #menu > #navegacao > ul > li > a:hover {
+    background-color: #fdf6be;
+}
+
+#cabecalho > #menu > .depoimento {
+   float: right;
+   margin-right: 40px;
+   cursor: text;
+}
+
+/*Final cabeçalho*/
