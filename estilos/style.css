@@ -7,7 +7,7 @@ body {
 }
 
 #container {
-    background-color: #ede9cc;
+    background: #ede9cc url(../imagens/bg-container.png) repeat-y top center;
     margin: 15px auto;
     min-width: 740px !important;
     max-width: 1180px;
@@ -117,3 +117,83 @@ body {
 }
 
 /*Final cabeçalho*/
+/*Início do conteúdo central*/
+#principal > #area-central {
+   background: url(../imagens/bg-area-principal.png) top left repeat-x;
+   width: 50%;
+   float: left;
+   padding: 15px 0px;
+}
+
+#principal > #area-central > .conteudo > h2 {
+    color: #686337;
+    font-size: 1.3em;
+    padding: 5px;
+}
+
+#principal > #area-central > .conteudo > p {
+    line-height: 25px;
+    text-indent: 30px;
+    text-align: justify;
+    color: #000;
+}
+
+#principal > #area-lateral {
+    background: url(../imagens/bg-area-lateral.png) top left repeat-x;
+    width: 50%;
+    float: right;
+    padding: 20px 0px;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios {
+    list-style-type: none;
+    margin-top: 30px;
+    padding: 8px;
+    text-decoration: none;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li {
+    height: 6em;
+    border-bottom: 1px solid #f3efcb;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li:hover {
+    background-color: #f3f6d6;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li > a {
+    text-decoration: none;
+    border-bottom: 1px solid #4c4928;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li > a > p {
+    color: #201f11;
+    font-size: 0.8em;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li > a > h3 {
+    font-size: 1.1em;
+    color: #615b2b;
+    display: block;
+    background: url(../imagens/ornamento.png) top right no-repeat;
+}
+
+#principal > #area-lateral > .conteudo > #beneficios > li > a > img {
+    border-radius: 3px;
+    margin-right: 8px;
+    margin-left: 1px;
+    float: left;
+    transform: translateY(1px);
+}
+
+.conteudo {
+    width: 90%;
+    margin: 0px auto;
+}
+/*Fim do conteúdo central*/
+ 
+/*Início do rodapé*/
+.rodape {
+    clear: both; 
+}
+/*Fim do rodapé*/
